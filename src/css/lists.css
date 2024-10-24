@@ -1,0 +1,13 @@
+.lists{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 100%;
+}
+
+.no-section-data{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}

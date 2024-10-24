@@ -1,0 +1,99 @@
+.navbar {
+  justify-content: space-between;
+  padding: 1em;
+  box-shadow: 2px 2px 15px #7e7e7e;
+  font-family: Roboto, sans-serif;
+  height: 70px;
+  z-index: 3;
+}
+
+.nav-country-flag {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-logo {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.nav-country-name {
+  font-size: 17px;
+}
+
+.nav-icons {
+  font-size: 1.1em;
+  padding: 0 5px;
+  color: #474747;
+}
+
+.nav-cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-item-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  font-size: 13px;
+  background-color: #0051ff;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  color: white;
+}
+
+.nav-left .active,.nav-right .active{
+  color: #696969;
+  border-bottom: 4px solid #0051ff;
+}
+
+.nav-link:hover{
+  color: #0051ff;
+}
+
+.nav-link{
+  padding: 24px 5px;
+}
+
+.nav-icons .active{
+  border-bottom: none;
+}
+
+.nav-icon{
+  margin: 0 3px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.nav-icon:hover{
+  background-color: #6294ff7c;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.login-icon-box{
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.login-icon-box span{
+  font-weight: bold;
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+}
+
+.login-icon-box:hover{
+  background-color: #3675fc7c;
+  transition: all .2s ease-in-out;
+
+}

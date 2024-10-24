@@ -1,0 +1,133 @@
+.edit-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  gap: 5px;
+  margin: 2em 0;
+}
+
+.edit-profile-form {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.edit-profilePhoto {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+}
+
+.edit-profile-form input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.editProfile-username {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.edit-profilePhoto-container {
+  justify-content: center;
+  position: relative;
+  margin-bottom: 1em;
+  align-self: center;
+}
+
+.edit-profilePhoto-btn {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5em;
+  right: 5px;
+  cursor: pointer;
+}
+
+.edit-profile-other-inp {
+  flex-direction: column;
+  margin-top: 1em;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.edit-profile-other-inp input,
+#edit-gender {
+  padding: 3px 5px;
+  font-size: 17px;
+  width: 80%;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.edit-profile-other-inp label {
+  font-weight: bold;
+}
+
+.edit-profile-item {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#edit-gender {
+  cursor: pointer;
+  outline: none;
+}
+
+.submit-edit-btn {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 15px;
+  color: white;
+  background-color: #115efc;
+  align-self: flex-start;
+  margin-top: 1em;
+}
+
+.submit-edit-btn:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.new-loc-block ,.already-loc{
+  width: 100%;
+  margin: 3px 0;
+}
+
+.new-loc-block input,.already-loc input{
+    padding: 2px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.new-loc-block button {
+  border: none;
+  background-color: #115efc;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.new-loc-block button:hover {
+  background-color: #276fff;
+  cursor: pointer;
+}
+
+.already-loc-delete-btn{
+    color: red;
+    font-size: 1.5em;
+}
+
+.already-loc-delete-btn:hover{
+    color: black;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+

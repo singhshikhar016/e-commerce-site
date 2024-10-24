@@ -1,0 +1,141 @@
+.my-cart-item {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 1em;
+  border-radius: 4px;
+  border: 1px solid #d5d5d5;
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.my-cart-item:hover {
+  box-shadow: 0px 0px 8px #c5d7ff;
+}
+
+.my-cart-new-text{
+  border-radius: 4px;
+  background-color: #e7e7e7c7;
+  color: rgb(40, 255, 40);
+  font-size: 16px;
+  font-family: "Poppins",sans-serif;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 2px 8px;
+}
+
+.my-cart-mainImg {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.my-cart-additional-img {
+  width: 20%;
+  height: 90px;
+  padding: 3px;
+  object-fit: contain;
+  border-radius: 4px;
+  border: 1px solid #b1b1b1;
+}
+
+.my-cart-additional-img:hover {
+  border: none;
+  outline: 3px solid #0051ffab;
+  transition: outline 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.additional-img-container {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.my-cart-title {
+  align-self: flex-start;
+  font-size: 1.3em;
+}
+
+.my-cart-price,
+.my-cart-oldPrice,
+.my-cart-price-off {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.my-cart-oldPrice {
+  text-decoration: line-through;
+  color: #929292;
+  font-size: 18px;
+}
+
+.my-cart-price-container {
+  align-self: flex-start;
+}
+
+.my-cart-desc {
+  color: #707070;
+  font-size: 17px;
+}
+
+.my-cart-price-off {
+  color: red;
+  font-size: 17px;
+}
+
+.my-cart-quantity-dec,
+.my-cart-quantity-inc {
+  padding: 3px 8px;
+  border-radius: 4px;
+  background-color: #d3d2d291;
+  font-weight: bold;
+}
+
+.my-cart-quantity-dec:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.my-cart-quantity-inc:hover {
+  cursor: pointer;
+  color: limegreen;
+}
+
+.my-cart-total-amount{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    color: #1f54d1;
+}
+
+.my-cart-btn-container{
+    width:100%;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.my-cart-buy-now ,.my-cart-remove-from-cart{
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.my-cart-buy-now:hover ,.my-cart-remove-from-cart:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.my-cart-buy-now{
+    background-color: #1f54d1;
+}
+
+.my-cart-remove-from-cart{
+    background-color: rgb(255, 48, 48);
+}

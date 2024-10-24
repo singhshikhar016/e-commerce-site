@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+.data-body{
+  min-height: 36vh;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.gap-s{
+  gap: 4px;
+}
+
+.gap-m{
+  gap: 8px;
+}
+
+.gap-l{
+  gap: 1.1em;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.w-5{
+  width: 50%;
+}

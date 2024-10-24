@@ -1,0 +1,114 @@
+.login-head {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #0051ff;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-page {
+  margin: 10px 0;
+  height: 80vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-form-container {
+  border: 1px solid #b1b1b1;
+  border-radius: 7px;
+  gap: 2em;
+  padding: 1em;
+  box-shadow: 1px 1px 15px #b1b1b1;
+}
+
+.login-form-container img {
+  width: 50%;
+  filter: drop-shadow(0px 0px 8px #585858);
+}
+
+.login-form {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.login-form label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 3px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 14px #b1b1b1;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  font-size: 16px;
+}
+
+.login-form-item {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2px;
+}
+
+.login-btn {
+  align-self: flex-start;
+  padding: 3px 10px;
+  background-color: #0400ff;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.login-btn:hover,
+.login-page-signup-btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.dontHaveAccount {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-form hr {
+  width: 100%;
+  color: #b1b1b1;
+}
+
+.dontHaveAccount span {
+  font-weight: bold;
+}
+
+.login-page-signup-btn {
+  border: none;
+  border-radius: 3px;
+  background-color: #fa1919;
+  color: white;
+  padding: 3px 10px;
+  font-size: 15px;
+}
+
+.login-pass{
+    position: relative;
+}
+
+.eye-icons{
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    font-size: 1.3em;
+    cursor: pointer;
+    padding: 3px;
+}

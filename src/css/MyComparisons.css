@@ -1,0 +1,105 @@
+.my-comparisons-page{
+    margin: 1em;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.my-comparisons-page h3{
+    font-family: "Open Sans", sans-serif;
+}
+
+.my-comparisons {
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.my-comparisons-page hr{
+    width: 100%;
+}
+
+
+.compare-container{
+    width: 90%;
+    margin: 2em auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.compare-left,.compare-right{
+    width: 50%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3px;
+}
+
+.compare-left{
+    border-right: 2px solid #b1b1b1;
+}
+
+.compare-left img,.compare-right img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+
+.compare-additional-img img{
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    padding: 3px;
+    width: 18%;
+    object-fit: contain;
+    height: 100px;
+}
+
+.compare-additional-img img:hover{
+    outline: 3px solid #0051ffab;
+    border-radius: 4px;
+    transition: outline 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.my-comparisons-title{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.my-comparisons-title a:hover{
+    color: #0051ff;
+    text-decoration: underline;
+}
+
+.compare-container{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+
+.my-comparisons-desc{
+    font-size: 16px;
+    color: #707070;
+    font-weight: normal;
+}
+
+.my-comparisons-price, .my-comparisons-oldprice{
+    font-size: 20px;
+    color: #0051ff;
+    font-weight: bold;
+}
+
+.my-comparisons-oldprice{
+    color: #797979;
+    text-decoration: line-through;
+}
+
+.my-comparisons-price-off{
+    color: red;
+    font-weight: bold;
+}
+
+.my-comparison-item{
+    font-weight: bold;
+}

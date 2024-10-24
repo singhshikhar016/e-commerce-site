@@ -1,0 +1,43 @@
+.featuredProducts{
+    flex-direction: column;
+    gap: 10px;
+    margin: 3em 0;
+}
+
+.featured-top{
+    width: 85%;
+    justify-content: space-between;
+}
+
+.featured-top h1{
+    font-size: 1.5em;
+}
+
+.featured-top p{
+    width: 60%;
+    font-size: 15px;
+    line-height: 1.4em;
+    font-family: "Roboto",sans-serif;
+}
+
+.featured-bottom{
+    margin-top: 1em;
+    gap: 3em;
+    width: 90%;
+    justify-content: center;
+    position: relative;
+}
+
+.featured-show-more-btn{
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    align-self: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 2;
+    cursor: pointer;
+}

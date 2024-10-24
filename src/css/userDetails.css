@@ -1,0 +1,74 @@
+.userDetails{
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    width: 300px;
+    z-index: 4;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding: 1em;
+    align-items: flex-start;
+}
+
+.profileImg{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.userDetails-top-img-box{
+    justify-content: center;
+    margin-bottom: 1em;
+    flex-direction: column;
+    align-self: center;
+}
+
+.userDetails-username{
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.userDeatils-options{
+    font-size: bold;
+}
+
+.userDeatils-options:hover{
+    color: #0051ff;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.changePass-form{
+    flex-direction: column;
+    margin: 0 10px;
+    width: 90%;
+}
+
+.changePass-form input{
+    padding: 2px 8px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 12px #b1b1b1;
+    border-radius: 6px;
+    width: 100%;
+    font-family: "Poppins",sans-serif;
+}
+
+.changePass-form button{
+    align-self: flex-end;
+    border: none;
+    border-radius: 4px;
+    background-color: #0051ff;
+    padding: 5px 8px;
+    color: white;
+}
+
+.changePass-form button:hover{
+    cursor: pointer;
+    background-color: #276cff;
+}

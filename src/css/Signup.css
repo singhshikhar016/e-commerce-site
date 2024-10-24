@@ -1,0 +1,30 @@
+
+.signup-btn{
+    border: none;
+    border-radius: 3px;
+    background-color: #fa1919;
+    color: white;
+    padding: 6px 10px;
+    font-size: 15px;
+}
+
+.signup-btn:hover{
+    background-color: #f72e2e;
+    cursor: pointer;
+}
+
+.signup-form{
+    width: 55%;
+}
+
+#signup-left-img{
+    filter: none;
+    border-radius: 6px;
+    width: 40%;
+}
+
+.confirmPass-hidden{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fa1919;
+}

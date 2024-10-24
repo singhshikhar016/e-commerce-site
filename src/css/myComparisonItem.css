@@ -1,0 +1,65 @@
+.my-comparsion-item {
+  flex-direction: column;
+  position: relative;
+  border: 1px solid #b1b1b1;
+  padding: 5px;
+  border-radius: 4px;
+  max-width: 20%;
+  min-width: 15%;
+  justify-content: space-between;
+  width: auto;
+}
+
+.my-comparsion-item hr {
+  width: 100%;
+}
+
+.my-comparsion-item img {
+  width: 100%;
+  object-fit: contain;
+  height: 100px;
+}
+
+.select-icon {
+  position: absolute;
+  font-size: 1.2em;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.my-comparison-item-title,
+.my-comparison-item-price-container{
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+.my-comparison-item-price {
+  color: #0051ff;
+}
+
+.my-comparison-item-oldprice{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.my-comparison-del-btn{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 4px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: #fac6c6;
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.my-comparison-del-btn abbr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

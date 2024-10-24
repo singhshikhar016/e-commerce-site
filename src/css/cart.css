@@ -1,0 +1,142 @@
+.cart{
+    border: 1px solid grey;
+    width: 35%;
+    height: fit-content;
+    max-height: 80%;
+    position: absolute;
+    top: 75px;
+    right: 5px;
+    z-index: 4;
+    padding: 1em;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: flex-start;
+    overflow-y: scroll;
+}
+
+.cart h2{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.cart-item{
+    margin: 1em 0;
+    gap: 12px;
+}
+
+.cart-item-img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cart-item-details{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cart-item-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cart-item-desc{
+    font-size: 14px;
+}
+
+.cart-item-price{
+    color: #0051ff;
+    font-weight: bold;
+}
+
+.cart-item-del-btn{
+    color: red;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.cart-item-del-btn:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.cart-total-price{
+    justify-content: space-between;
+    margin: 1em 0 10px 0;
+}
+
+.cart-total-price span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.cart-checkout-btn{
+    padding: 8px;
+    margin: 8px 0;
+    background-color: #0051ff;
+    color: white;
+    justify-content: center;
+    width: 15rem;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.reset-cart{
+    font-size: 14px;
+    box-shadow: 1px 1px 12px #b1b1b1;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+
+.reset-cart:hover{
+    box-shadow: none;
+    cursor: pointer;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+
+.no-item-in-cart{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 70vh;
+}
+
+.no-item-in-cart-btn{
+    background-color: #0051ff;
+    padding: 7px 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+.no-item-in-cart-btn:hover, .cart-checkout-btn:hover{
+    cursor: pointer;
+    background-color: #2d6efc;
+}
+
+.cart-item-price-container{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cart-item-total-price{
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+}
+
+.visit-cart-link{
+    color: #0051ff;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.visit-cart-link:hover{
+    color: black;
+}

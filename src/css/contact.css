@@ -1,0 +1,45 @@
+.contact {
+  margin-top: 5em;
+  padding: 1em;
+  background-color: #0051ff;
+  justify-content: space-evenly;
+}
+
+.contact span {
+  color: white;
+  font-size: 15px;
+}
+
+#email,
+.join-us-btn {
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+#email {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.join-us-btn {
+  background-color: black;
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-icons {
+  gap: 1em;
+}
+
+.contact-icon:hover {
+  color: blue;
+}
+
+.contact-icon {
+  font-size: 1.5em;
+  color: white;
+}
